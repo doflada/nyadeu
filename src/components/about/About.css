@@ -1,0 +1,146 @@
+#about-id {
+	height: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('../../images/backgrmka.png');
+	background-position: right;
+  background-repeat: no-repeat;
+  background-size: 85% 100%;
+	animation: backFade 0.5s; ;
+}
+
+#details-id {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#meImg {
+	margin: 30px 10px;
+	border-radius: 15px;
+	height: 100px;
+	width: 100px
+}
+
+#adress {
+	float: left;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#adress img {
+	margin: 3px;
+	height: 25px;
+	width: 25px;
+}
+
+#adress a {
+	color: black;
+	text-decoration: none;
+}
+
+#adress a:visited {
+	color: black;
+}
+
+#adress .adressPlace {
+	margin: 1px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	background-color: gray;
+	border: solid 0.5px #1D3842;
+}
+
+#meTitle {
+	margin: 30px 10px;
+	font-size: 2.3vw;
+  font-style: italic;
+	color: white;
+	text-shadow: 5px 5px 8px #101820;
+	width: 11em;
+	background: repeating-linear-gradient( 35deg, #000000 1px, #262626 2px, #000000 10px, #ffffff 1px);
+}
+
+#train-id {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 50px;
+}
+
+th {
+	background-color: #433F5A;
+	text-align: center;
+	text-decoration: underline;
+	padding: 3px;
+}
+
+td {
+	padding: 10px;
+	text-align: left;
+	background-color: gray;
+}
+
+#bott-id {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#bott-id table {
+	margin-left: 80px;
+	border-spacing: 5px;
+}
+
+#cv-id {
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: justify;
+	color: black;
+	background-color: gray;
+	width: 80%;
+	padding: 5px;
+}
+
+#kbd-id {
+	max-width: 400px;
+	max-height: 200px;
+	margin-right: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+
+	#details-id {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#meTitle {
+		margin: 30px 10px;
+		font-size: 4.3vw;
+	}
+
+	#bott-id {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#bott-id table {
+		margin-left: 8px;
+	}
+
+	#cv-id {
+		width: 97%;
+		margin: 5px;
+	}
+
+	#train-id {
+		align-items: center;
+	}
+
+}

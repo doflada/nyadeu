@@ -1,0 +1,27 @@
+#footer-app-id {
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+  color: black;
+  margin: 1px 20px;
+}
+
+.firm-contact-id {
+  background-image: linear-gradient(to left, rgb(162, 174, 162), rgb(139, 139, 139));
+  border-radius: 5px;
+  padding: 0px 7px;
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #footer-app-id {
+    height: auto;
+   }
+
+   .firm-contact-id {
+      margin-top: auto;
+      margin-bottom: auto;
+   }
+}

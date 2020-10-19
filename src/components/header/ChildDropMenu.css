@@ -1,0 +1,56 @@
+.menu-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 0;
+  width: 180px;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 3px 5px #101820;
+  background-image: linear-gradient(to left, rgb(162, 174, 162), rgb(13, 13, 13));
+  z-index: -999;
+  transition: all 0.3s ease-in-out;
+}
+
+.opacityTrue, .opacityFalse {
+  position: relative;
+  align-items: center;
+  color: white;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+
+.opacityTrue {
+  opacity: 1;
+  z-index: 999;
+}
+
+.opacityFalse {
+  opacity: 0;
+  height: 0;
+  z-index: -999;
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .opacityTrue {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+  }
+
+  .opacityFalse {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    height: 0;
+    z-index: -999;
+    display: none;
+  }
+
+}

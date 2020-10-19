@@ -1,0 +1,85 @@
+#content-app-id {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-image: url('../../images/backgrmka.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 85% 100%;
+	animation: backFade 0.5s;
+}
+
+@keyframes backFade {
+	0% { opacity: 0.5;
+	     background-image: url('../../images/movbk.png');
+			 margin-left: -100%
+	}
+	100% {
+		background-image: url('../../images/backgrmka.png');
+		background-size: 85% 100%;
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+#left-content-id {
+	display: flex;
+	flex-direction: column;
+}
+
+#keyboard-id {
+	max-width: 30vw;
+	height: auto;
+	margin-top:7vh;
+	margin-left: 23vw;
+}
+
+#firm-id {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 9em;
+	height: 1.5em;
+	border: solid 1px black;
+	border-radius: 15px;
+  box-shadow: 9px 11px #101820;
+	font-size: 3.3vw;
+  font-style: italic;
+	color: white;
+	text-shadow: 5px 5px 8px #101820;
+	background: repeating-linear-gradient( 35deg, #000000 1px, #262626 2px, #000000 10px, #ffffff 1px);
+	margin-top: 3vh;
+	margin-left: 2vw;
+}
+
+
+#right-content-id {
+	margin-top: 2vh;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+@media only screen and (max-width: 800px) {
+	#left-content-id {
+			flex-direction: column;
+			align-items: flex-end;
+			margin-bottom: auto;
+	}
+	#keyboard-id {
+		width: 30vw;
+		height: 4em;
+		margin-top:3vh;
+		margin-left: 3px;
+	}
+	#firm-id {
+		margin-top:2vh;
+		margin-right: auto;
+	}
+	#right-content-id {
+		margin-top: 15vh;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+}
