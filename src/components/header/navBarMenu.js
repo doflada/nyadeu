@@ -66,14 +66,14 @@ export const navBarMenu = [
         id: 1,
         menuName: 'Cluj sunset',
         menuItems: [],
-        link: 'https://nyad.eu/clujsunset',
+        link: 'https://clujsunset.nyad.eu',
         isOpen: false
       },
       {
         id: 2,
         menuName: 'Flower rise',
         menuItems: [],
-        link: 'https://nyad.eu/flowerrise',
+        link: 'https://flowerrise.nyad.eu',
         isOpen: false
       }
     ],
