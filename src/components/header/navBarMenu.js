@@ -18,7 +18,7 @@ export const navBarMenu = [
             id: 2,
             menuName: 'Aivalf Paitings',
             menuItems: [],
-            link: 'https://www.aivalf.nyad.eu',
+            link: 'https://aivalf.nyad.eu',
             isOpen: false
           }
         ],
@@ -33,7 +33,7 @@ export const navBarMenu = [
             id: 1,
             menuName: 'RoboFriends',
             menuItems: [],
-            link: 'https://www.robofriends.nyad.eu/',
+            link: 'https://robofriends.nyad.eu/',
             isOpen: false
           },
           {

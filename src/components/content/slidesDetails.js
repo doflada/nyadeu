@@ -33,5 +33,20 @@ export const slidesDetails = [
     slideLink: "https://smartfacebrain1.herokuapp.com/",
     title: "Face recognition",
     description: "Face recognition in photos!  Create using React and Co. with Udemy learning and ZTM academy! "
+  },
+  {
+    id: 6,
+    slideName: "./TumbPRJ/cjSun.png",
+    slideLink: "https://clujsunset.nyad.eu/",
+    title: "Cluj by sunset",
+    description: "Wonderful Cluj-Napoca by sunset ! (work in progress)"
+  },
+  {
+    id: 7,
+    slideName: "./TumbPRJ/flowRis.png",
+    slideLink: "https://flowerrise.nyad.eu/",
+    title: "Flower rise",
+    description: "Flower rise (work in progress)"
   }
+
 ];
